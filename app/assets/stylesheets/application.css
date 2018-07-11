@@ -20,6 +20,7 @@ html{
 h1{
     color: #7f5a0c;
     font-weight: bold;
+    font-size: 40px;
     text-align: center;
     background: #dcc289;
     padding: 3px;
@@ -27,7 +28,8 @@ h1{
     
 }
 .item{
-    font-size: large;
+    color: #292b30;
+    font-size: 20px;
 
 }
 .pomo{
@@ -37,6 +39,9 @@ h1{
 li{
     margin-top: 25px;
 }
+.listitem_1{
+     text-decoration: line-through;
+ }
 li:hover{
     background-color: #d6b776;
     border: none;
@@ -53,18 +58,34 @@ li:hover{
     background: #7f5a0c;
     border:none;
     padding:5px 20px;
+    cursor: pointer;
  }
- 
- html{
+#add-new-todo-button:hover{
+    background: #dcc289;
+}
+html{
     font-family:"Comic Sans MS", cursive, sans-serif;
     background-color: #cca553;
 }
 h2{
     color: #7f5a0c;
     font-weight: bold;
+    font-size: 40px;
     text-align: center;
     background: #dcc289;
     padding: 3px;
     display: block;
-    
+}
+p{
+    text-align: center;
+}
+#back{
+    background: #7f5a0c;
+    border: none;
+    padding:10px 40px;
+    cursor: pointer;
+    display: block;
+}
+#back:hover{
+    background: #dcc289;
 }

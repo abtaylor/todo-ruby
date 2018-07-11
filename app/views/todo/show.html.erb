@@ -1,8 +1,14 @@
 
         <h3>Todo #<%= params[:id] =%></h3>
         <h2>To-Do</h2>
-        <span class= "item"> <%=  @todo_description =%> -</span> 
+        <p>
+        <span class= "item"> <%=  @todo_description =%> </span> 
+        <br>
         <span class= "time"> <%= @todo_pomodoro_estimate =%> Pomodoros </span>
-        <a href = "https://todoapp-abtaylor.c9users.io/todo/index"> Back </a>
+        </p>
+        <br>
+        <a href = "https://todoapp-abtaylor.c9users.io/todo/index">
+                <input id ="back" type = "button" type = "submit" value="Back">
+        </a>
   
   
