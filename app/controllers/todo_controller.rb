@@ -1,5 +1,6 @@
 class TodoController < ApplicationController 
     def index
+        @todos = Todo.all
     end
     def new
     end
@@ -44,5 +45,8 @@ class TodoController < ApplicationController
         #     if todo_id == '3'
         #       @todo_pomodoro_estimate = "3"
         #     end
+    def edit
+        @todo = Todo.find_by_id(params[:id])
+    end
     end
 end
