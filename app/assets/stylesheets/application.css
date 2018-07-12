@@ -77,8 +77,10 @@ h2{
     display: block;
 }
 p{
+    font-size: larger;
     text-align: center;
 }
+
 #back{
     background: #7f5a0c;
     border: none;
